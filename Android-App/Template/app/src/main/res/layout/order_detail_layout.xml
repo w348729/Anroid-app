@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dialog_round"
+    android:padding="10dp">
+
+    <TableRow>
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Order ID:"
+            android:textSize="20dp"/>
+
+        <TextView
+            android:id="@+id/order_id"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"/>
+
+    </TableRow>
+
+    <TableRow
+        android:paddingTop="15dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="User Address:" />
+
+        <TextView
+            android:id="@+id/user_address"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow android:paddingTop="10dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Recipient Address:" />
+
+        <TextView
+            android:id="@+id/recipent_address"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow android:paddingTop="10dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Recipient Name:" />
+
+        <TextView
+            android:id="@+id/recipent_name"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow android:paddingTop="10dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Recipient Number:" />
+
+        <TextView
+            android:id="@+id/recipent_number"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow android:paddingTop="10dp">
+
+        <TextView
+            android:layout_height="wrap_content"
+            android:text="Order Time:" />
+
+        <TextView
+            android:id="@+id/order_time"
+            android:layout_height="wrap_content" />
+    </TableRow>
+
+    <TableRow android:paddingTop="40dp">
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_height="wrap_content"
+            android:layout_span="2"
+            android:text="Confirm" />
+    </TableRow>
+
+</TableLayout>
